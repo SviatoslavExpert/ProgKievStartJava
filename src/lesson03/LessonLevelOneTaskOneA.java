@@ -7,7 +7,7 @@ package lesson03;
 
 import java.util.Scanner;
 
-public class LessonTaskOneA {
+public class LessonLevelOneTaskOneA {
 
     public static void main(String[] args) {
 
