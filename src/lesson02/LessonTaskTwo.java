@@ -3,7 +3,7 @@
 площадь треугольника если известны его стороны.
  */
 
-package lesson01;
+package lesson02;
 
 public class LessonTaskTwo {
 
