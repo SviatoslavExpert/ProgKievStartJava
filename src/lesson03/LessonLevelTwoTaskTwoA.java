@@ -7,11 +7,10 @@ public class LessonLevelTwoTaskTwoA {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         Scanner sc = new Scanner(System.in);
-        int number = 0;
         int floor = 0;
         int access = 0;
         System.out.println("Input numbers and press Enter");
-        number = sc.nextInt();
+        int number = sc.nextInt();
 
         if (number > 0 && number <= 4 * 9 * 4) {
             access = (number - 1) / 36 + 1;
