@@ -2,7 +2,7 @@ package lesson03;
 
 import java.util.Scanner;
 
-public class LessonLevelTwoTaskTwoA {
+public class LessonLevelOneTaskTwoA {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
