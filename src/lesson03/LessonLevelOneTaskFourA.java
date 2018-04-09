@@ -7,23 +7,16 @@
 
 package lesson03;
 
-import java.util.Scanner;
-
 public class LessonLevelOneTaskFourA {
-    public static void main(String []args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Введите длину первой стороны треугольника:");
-        double a = sc.nextDouble();
-        System.out.println("Введите длину второй стороны треугольника:");
-        double b = sc.nextDouble();
-        System.out.println("Введите длину третьей стороны треугольника:");
-        double c = sc.nextDouble();
-
-        if((a + b) > c && (a + c) > b && (b + c) > a){
-            System.out.println("Треугольник существует.");
-        }
-        else{
-            System.out.println("Треугольник не существует.");
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        double a = 0.4;
+        double b = 0.3;
+        double c = 0.5;
+        if (a + b > c && a + c > b && c + b > a) {
+            System.out.println("Triangular exist");
+        } else {
+            System.out.println("Triangular not exist");
         }
     }
 }
